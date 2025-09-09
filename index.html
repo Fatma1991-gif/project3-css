@@ -1,148 +1,110 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <title>My Beautiful Page</title>
-  
-  <link rel="icon" href="youtub.png" type="image/x-icon"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<a href="https://gomycode.tn/">Take me to GoMyCode's Website</a>
-
-<body> 
-
+<body class="container">
+ 
   <!-- En-tête -->
   <header>
     <h1>Bienvenue sur mon Portfolio</h1>
     <nav>
-      <ul>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#media">Médias</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="navul">
+        <a class=" link" href="#about">À propos</a>
+        <a class=" link" href="#projects">Projets</a>
+        <a class=" link" href="#media">Médias</a>
+        <a class=" link" href="#contact">Contact</a>
       </ul>
     </nav>
   </header>
 
-  <img src="media/dog.image.png" alt="dog.image" height="500px" width="450px"centre >
+  <!-- Section À propos -->
   
-  <audio controls><br>
-  <source src="media/test.mp3" type="audio/mpeg">
-        Please Check the audio Extension
-</audio><br>
-<video width="320" height="240" controls><br>
-	<source src="media/test.mp4" type="video/mp4" />
-	Please Check the video extension.
-</video>
-<br><iframe width="453" height="480" src="https://www.youtube.com/embed/BHACKCNDMW8?list=RDBHACKCNDMW8" title="3 Hours of Amazing Nature Scenery &amp; Relaxing Music for Stress Relief." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-src="media/test.mp4"></video><br>
+    <section id="about">
+      <h2 class="h2">À propos de moi</h2>
+      <p>Bonjour ! Je m'appelle chenkaoui fatma, une développeuse web passionné par la création de sites modernes et interactifs.</p>
+
+      <h2 class="h2">Mes Compétences</h2>
+      <!-- Tableau -->
+       <div class="tableau">
+
+         <table border="30">
+           <tr>
+             <th>Compétence</th>
+             <th>Niveau</th>
+           </tr>
+           <tr>
+             <td>HTML & CSS</td>
+             <td class="Avance">Avancé</td>
+           </tr>
+           <tr>
+             <td>JavaScript</td>
+             <td class="Intermédiaire">Intermédiaire</td>
+           </tr>
+           <tr>
+             <td>React</td>
+             <td class="debutant">Débutant</td>
+           </tr>
+         </table>
+       </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects">
+      <h2 class="h2">Mes Projets</h2>
+      <!-- Liste -->
+      <ul class="panel"> 
+        <a href="projet1.html">Portfolio personnel</a><br>
+        <a href="projet2.html">Boutique en ligne</a><br>
+        <a href="projet3.html">Plateforme de blog</a><br>
+      </ul>
+    </section>
+
+    <!-- Section Médias -->
+    <section id="media">
+      <h2 class="h2">Médias</h2>
+
+      <h3 class="">Vidéo de présentation</h3>
+      <video width="320" controls>
+        <source src="media/test.mp4" type="video/mp4" >
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+
+      <h3>Podcast / Audio</h3>
+      <audio controls>
+        <source src="media/test.mp3" type="audio/mp3">
+        Votre navigateur ne supporte pas l'audio.
+      </audio>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section id="contact">
+      <h2 class="h2">Contactez-moi</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  
+
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 ch fatma- Tous droits réservés</p>
+  </footer>
+
 </body>
-<div><div>
-      <h1>This is the first division</h1>
-    </div>
-    <div>
-      <h1>This is the second division</h1>
-    </div></div>
-    <table><table border="1">
-      <tr>
+</ht
         
-<h1>Web Languages</h1>
-<ul>
-	<li>HTML</li>
-	<li>CSS</li>
-	<li>JS</li>
-</ul>
-<h1>Tracks At GoMyCode</h1>
-
-    <!-- Disc bullets -->
-    <ul type="disc">
-      <li>AI Track</li>
-      <li>Web Track</li>
-      <li>Game Track</li>
-      <li>Data Science Track</li>
-    </ul>
-
-    <!-- Square bullets -->
-    <ul type="square">
-      <li>AI Track</li>
-      <li>Web Track</li>
-      <li>Game Track</li>
-      <li>Data Science Track</li>
-    </ul>
-        <td>Paragraphs</td>
-        <td>Selectors</td>
-        <td>DOM</td>
-      </tr>
-      <tr>
-        <td>Tables</td>
-        <td>Styles</td>
-        <td>Elements</td
-    
-
- nav
-<a href="/html/> HTML </a>
-<a href="/css/> CSS </a>
-<a href="/js/> JavaScript </a>
-<a href="/jquery/> jQuery </a>
-</nav> </header>
-<section><section> <br>
-<h1> Contact information <h1>
-<p> Go My Code is an EdTech Startup.. </p>
-</section></section>
-<html>
- <head>
- </head>
- <body>
-   <form>
-     A form
-     </form></form>
-      <label>Name:</label>
-      <input type="fatima" name="first name" placeholder="fatima" /><br>
-      
-
-
-      <label>Number:</label>
-      <input type="number" name="" value="24452793" /><br>
-      
-
-
-      <label>birthday:</label>
-      <input type="jj/mm/aaaa" name="09/02/1991" /><br>
-      
-
-
-      <label>password:</label>
-      <input type="go.html" name="go.html" /><br>
-      
-
-
-      <input type="submit" value="Submit" />
-      <form><form><br>
-     <search>      <select><br>
-        <option value="WebTrack">Web Track</option>
-        <option value="AITrack">AI Track</option>
-        <option value="GameTrack">Game Track</option>
-        <option value="DataScienceTrack">Data Science Track</option>
-      </select><br>
-    </search><br>
-     <script type="module" src=""></script>
- 
-        <textarea name="message" cols="30" rows="5">
-        Welcome to GoMyCode
-    </textarea><br>
-    <form>
-      <label>First Name:</label>
-      <input type="text" name="fatima" /><br>
-      
-
-      <label>Last Name:</label>
-      <input type="text" name="ch" id="lastName" />
-      
-
-      <!-- This button will submit the form, causing the page to redirect -->
-      <button type="submit">Submit Name</button>
-    </form>
-
-
- </body>
-
-</html>
-

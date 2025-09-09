@@ -1,0 +1,105 @@
+.container{
+    text-align: center;
+
+} 
+body{
+    font-family: Helvetica neue, roboto;
+}
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+     color: rgb(197, 9, 245);
+     border-radius: 40px;
+     
+   } 
+.link {
+
+    font-size:x-large ;
+    color: rgb(95, 41, 231);
+    margin-right: 80px;
+
+   }
+.navul{
+    display: flex;
+    background-color:rgb(225, 237, 55);
+    font-size:xx-large
+}
+.h2 { 
+    color: rgb(204, 7, 7);
+    font-size: 40px;    
+
+}
+
+h3{
+    text-align:center;
+    color: rgb(7, 122, 32);
+    font-size:x-large;
+    font-style: italic;
+}
+.tableau table {
+    width: 70px;
+    margin: 20px auto;
+    border-collapse:collapse;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 04px 10px;
+    border-radius: 10px;
+    overflow:hidden 
+    
+}
+.tableau th {
+     background-color: #b30000;
+     color: white;
+     padding:12px ;
+
+}
+
+.tableau td {
+    border: 2px solide rgb(215, 157, 10) ;
+    padding: 12px;
+}
+
+.Avance{
+    background: #27ae60;
+    color: white;
+    font-weight: bold;
+}
+
+.Intermédiaire {
+    background: #f39c12;
+    color: white;
+    font-weight: bold;
+}
+
+.debutant {
+    background: #c56099;
+    color: white;
+    font-weight: bold;
+
+}
+
+.panel{
+    font-size: x-large;
+
+}
+
+
+
+
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    color: rgb(57, 29, 29);
+  
+}
+
+
+    
+
+
+
+
+
